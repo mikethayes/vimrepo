@@ -1,3 +1,6 @@
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 set nocompatible
 filetype off
 filetype plugin indent on
@@ -26,7 +29,7 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 
-colorscheme jellybeans
+colorscheme ron
 
 " Search
 set ignorecase
