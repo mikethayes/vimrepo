@@ -67,3 +67,7 @@ set number
 
 " ant
 let g:tlist_ant_settings = 'ant;p:Project;t:Target;r:Property'
+
+nmap <F8> :TagbarToggle<CR>
+nmap <F7> :NERDTreeToggle<CR>
+
