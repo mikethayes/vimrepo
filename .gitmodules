@@ -10,3 +10,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "otf"]
+	path = otf
+	url = https://github.com/vim-scripts/otf.vim.git
