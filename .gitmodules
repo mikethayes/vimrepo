@@ -1,24 +1,32 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
+    ignore = dirty
 [submodule "bundle/clojure"]
 	path = bundle/clojure
 	url = https://github.com/vim-scripts/VimClojure.git
+    ignore = dirty
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
+    ignore = dirty
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+    ignore = dirty
 [submodule "bundle/otf"]
 	path = bundle/otf
 	url = https://github.com/vim-scripts/otf.vim.git
+    ignore = dirty
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim.git
+    ignore = dirty
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
+    ignore = dirty
 [submodule "bundle/vim-powerline"]
 	path = bundle/vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline.git
+    ignore = dirty

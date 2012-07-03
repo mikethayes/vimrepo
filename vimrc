@@ -71,6 +71,14 @@ let g:tlist_ant_settings = 'ant;p:Project;t:Target;r:Property'
 nmap <F8> :TagbarToggle<CR>
 nmap <F7> :NERDTreeToggle<CR>
 
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=Inconsolata\ 12
+  elseif has("gui_win32")
+    set guifont=Consolas:h11:cANSI
+  endif
+endif
+
 " ---------------------------------------------------------------------------
 "  Automagic Clojure folding on defn's and defmacro's
 "  Lifted from https://github.com/dakrone/dakrone-dotfiles/blob/master/.vimrc
@@ -112,4 +120,5 @@ function TurnOnClojureFolding()
 endfunction
 
 autocmd FileType clojure call TurnOnClojureFolding()
-
+let g:Powerline_symbols = 'fancy'
+set encoding=utf-8
