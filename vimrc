@@ -75,7 +75,8 @@ if has("gui_running")
   if has("gui_gtk2")
     set guifont=Inconsolata\ 12
   elseif has("gui_win32")
-    set guifont=Consolas:h11:cANSI
+    " set guifont=Consolas:h11:cANSI
+    set guifont=Inconsolata\-dz\ for\ Powerline:h9:cANSI
   endif
 endif
 
@@ -119,6 +120,6 @@ function TurnOnClojureFolding()
       setlocal foldcolumn=2
 endfunction
 
-autocmd FileType clojure call TurnOnClojureFolding()
+" autocmd FileType clojure call TurnOnClojureFolding()
 let g:Powerline_symbols = 'fancy'
 set encoding=utf-8
